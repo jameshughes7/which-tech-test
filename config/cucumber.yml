@@ -1,6 +1,6 @@
-default: --profile default_terminal_output --profile default_report --profile default_site --profile default-browser --profile default-timeout
+default: --profile default_terminal_output --profile default_report --profile default-site --profile default-browser --profile default-timeout
 default_terminal_output: --quiet --format pretty
 default_report: --format progress --format html --out=test_report.html
-default-site: BASE_URL='https://www.which.co.uk'
+default-site: BASE_URL='https://www.which.co.uk/'
 default-browser: BROWSER='chrome'
 default-timeout: DEFAULT_TIMEOUT=10
