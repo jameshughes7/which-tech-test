@@ -18,7 +18,7 @@ Feature: Browse television reviews
       | Best Buy |
       | Don't Buy |
 
-    @jhwip
+    @complete
     Scenario: View Television results summary
       Given I am viewing Which Television reviews
       When I view a result
